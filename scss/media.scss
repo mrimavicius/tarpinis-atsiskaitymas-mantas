@@ -1,0 +1,34 @@
+@media (max-width: 480px) {
+    .col {
+        flex: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-auto {
+        width: 100% !important;
+
+        button {
+            width: 100%;
+        }
+    }
+
+    main {
+        .row {
+            flex-direction: column-reverse;
+        }
+
+        .reverse {
+            flex-direction: column;
+        }
+    }
+
+    footer {
+        ul {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0;
+        }
+    }
+}

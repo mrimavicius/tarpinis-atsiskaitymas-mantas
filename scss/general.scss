@@ -1,0 +1,29 @@
+body {
+    font-family: $page-font-family;
+}
+
+header {
+    background: url('../content/bg-masthead.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+ul {
+    span {
+        padding: 0.2em;
+    }
+}
+
+.card {
+    border: none;
+}
+
+.rounded-circle {
+    width: 150px;
+}
+
+footer {
+    i:hover {
+        cursor: pointer;
+    }
+}
